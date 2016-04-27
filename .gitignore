@@ -254,3 +254,8 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 
+# Client Libs
+bower_components/
+**/wwwroot/lib
+
+
