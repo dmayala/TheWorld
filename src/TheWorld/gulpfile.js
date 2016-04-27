@@ -51,7 +51,9 @@ gulp.task("min", ["min:js", "min:css"]);
 gulp.task("copy", ["clean"], function () {
     var bower = {
         "underscore": "underscore/underscore*.{js,map}",
-        "jquery": "jquery/dist/jquery*.{js,map}"
+        "jquery": "jquery/dist/jquery*.{js,map}",
+        "jquery-validation": "jquery-validation/dist/jquery.validate*.{js,map}",
+        "jquery-validation-unobtrusive": "jquery-validation-unobtrusive/jquery.validate.unobtrusive*.{js,map}"
     }
 
     for (var destinationDir in bower) {
