@@ -55,8 +55,8 @@ gulp.task("copy", ["clean"], function () {
         "jquery-validation": "jquery-validation/dist/jquery.validate*.{js,map}",
         "jquery-validation-unobtrusive": "jquery-validation-unobtrusive/jquery.validate.unobtrusive*.{js,map}",
         "bootstrap": "bootstrap/dist/**/*.{js,css,woff}",
-        "font-awesome": "font-awesome/**/*.{css,ttf,woff,woff2,svg,otf,eot}"
-
+        "font-awesome": "font-awesome/**/*.{css,ttf,woff,woff2,svg,otf,eot}",
+        "bootswatch": "bootswatch/yeti/*.{css, map}"
     }
 
     for (var destinationDir in bower) {
