@@ -7,6 +7,7 @@ using Microsoft.AspNet.Mvc;
 using TheWorld.ViewModels;
 using TheWorld.Services;
 using TheWorld.Models;
+using Microsoft.AspNet.Authorization;
 
 namespace TheWorld.Controllers.Web
 {
@@ -22,6 +23,12 @@ namespace TheWorld.Controllers.Web
         }
 
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        [Authorize]
+        public IActionResult Trips()
         {
             var trips = _repository.GetAllTrips();
             return View(trips);
