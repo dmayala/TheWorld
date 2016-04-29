@@ -50,7 +50,9 @@
   "scripts": {
     "prepublish": [
       "npm install",
-      "bower install",
+      "bower install"
+    ],
+    "prepare": [
       "gulp clean",
       "gulp min"
     ]
