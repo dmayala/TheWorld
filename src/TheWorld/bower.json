@@ -8,6 +8,9 @@
     "jquery-validation-unobtrusive": "~3.2.6",
     "bootstrap": "~3.3.5",
     "font-awesome": "~4.6.1",
-    "bootswatch": "3.3.5+2"
+    "bootswatch": "3.3.5+2",
+    "angular": "~1.4.5",
+    "angular-route": "~1.4.5",
+    "travelmap": "~1.0.2"
   }
 }
